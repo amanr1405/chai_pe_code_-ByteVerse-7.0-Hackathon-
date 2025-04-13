@@ -1,0 +1,76 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container */
+.conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+/* Inner container for content */
+.inner_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for Faculty Login */
+.container1, .container2 {
+    width: 48%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #3b112f;
+}
+
+/* Link Styling */
+.container12 a {
+    display: inline-block;
+    background-color: #3b112f;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.container12 a:hover {
+    background-color: #901430;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .inner_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container1, .container2 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

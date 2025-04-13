@@ -1,0 +1,111 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container for the page */
+.container1 {
+    background-color: #3b112f;
+    padding: 20px;
+}
+
+/* Navigation Menu */
+.admin_nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.admin_nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.admin_nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.admin_nav ul li a:hover {
+    background-color: #901430;
+    border-radius: 5px;
+}
+
+/* Main Content */
+.admin_block {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.insert h2 {
+    text-align: center;
+    color: #3b112f;
+    margin-bottom: 20px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+form input[type="date"]:focus, form input[type="text"]:focus, form textarea:focus {
+    border-color: #3b112f;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #3b112f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #901430;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3b112f;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .admin_block {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .admin_nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,95 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container for registration */
+.container {
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* Inner container for form */
+.inner_container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Message for errors */
+.msg {
+    color: red;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"], input[type="number"], input[type="radio"], input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus {
+    border-color: #3b112f;
+    outline: none;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #3b112f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #901430;
+}
+
+/* Captcha section */
+.captcha {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b112f;
+    margin-bottom: 15px;
+}
+
+/* Register link */
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+h3 a {
+    color: #3b112f;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}

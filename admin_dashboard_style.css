@@ -1,0 +1,84 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.admin_nav {
+    background-color: #3b112f;
+    padding: 15px;
+}
+
+.admin_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.admin_nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.admin_nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.admin_nav ul li a:hover {
+    background-color: #901430;
+    border-radius: 5px;
+}
+
+/* Heroic Section */
+.heroic {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #901430;
+    color: white;
+}
+
+/* Admin Block */
+.admin_block {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+}
+
+/* Table Styles */
+.records_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.records_table th, .records_table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.records_table th {
+    background-color: #3b112f;
+    color: white;
+}
+
+.records_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.records_table tr:hover {
+    background-color: #ddd;
+}
