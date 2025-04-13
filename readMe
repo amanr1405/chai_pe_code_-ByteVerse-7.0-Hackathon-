@@ -1,0 +1,36 @@
+# Faculty and Student Assignment & Work Sharing System
+
+## Overview
+This project is a web-based application designed to make assignment and work sharing easier between faculty and students. It allows faculty to assign tasks/homework to students either batchwise or classwise, while students can view and submit their assignments. Faculty can then provide remarks based on the submissions, and these remarks will be visible to the students.
+
+The system is built using **HTML**, **CSS**, **JavaScript**, **PHP**, and **Bootstrap** to ensure a responsive and user-friendly experience.
+
+## Features
+
+### 1. **User Authentication**
+   - Login system for both faculty and students to access their respective dashboards.
+   - Session-based login to ensure secure access.
+
+### 2. **Faculty Dashboard**
+   - **Assign Tasks**: Faculty can assign tasks or homework to students either individually or in batches.
+   - **View Submissions**: Faculty can view student submissions and track the completion status.
+   - **Add Remarks**: After reviewing submissions, faculty can provide feedback or remarks.
+
+### 3. **Student Dashboard**
+   - **View Tasks**: Students can view the tasks or homework assigned to them by faculty.
+   - **Submit Work**: Students can submit their assignments or projects for review.
+   - **View Remarks**: Once faculty review the submissions, students can see any feedback or remarks.
+
+### 4. **Task/Work Management**
+   - **Task Status**: Displays the status of student submissions (e.g., "Uploaded" or "Pending").
+   - **File Upload**: Students can upload files such as assignments or projects for faculty review.
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Backend**: PHP (for server-side logic)
+- **Database**: MySQL (for storing student tasks, assignments, and remarks)
+- **Session Management**: PHP sessions to track user logins
+
+## Folder Structure
+
